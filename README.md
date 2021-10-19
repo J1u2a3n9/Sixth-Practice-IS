@@ -39,6 +39,7 @@
 ### Speaker Class
 
 ### Speaker attributes :
+* Name 
 * Area List = Allows to store all areas of a display 
 * Nationality = Saves the speaker's nationality allowing to see if he/she is a foreigner or not
 
