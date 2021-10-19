@@ -43,9 +43,9 @@
 * Area List = Allows to store all areas of a display 
 * Nationality = Saves the speaker's nationality allowing to see if he/she is a foreigner or not
 
-### Time Class
+### Timer Class
 
-### Time Attributes
+### Timer Attributes
 * Days List = This is a list of the days of the speach.
 * Schedule List = This is a list of the hours of the speach. 
 
