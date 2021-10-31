@@ -12,6 +12,17 @@
 
 ### IMPORTANT! HOW TO USE 🔨
 
+* Clonar desde el repositorio principal usando: 
+
+     -git clone (enlace al repositorio)
+
+* Insertar en la terminal de la consola 'python main.py' para iniciar el programa
+
+
+
+
+
+
 ## PROBLEM SUBJECT TO CONSTRAINT SATISFACTION (PSSR) ⚙️
 
 ### Variables: :atom: 
@@ -35,6 +46,23 @@
 * W(x) = f1(Speaker1:Day2:Hour3:Area3,Speaker2:Day1:Hour2:Area2)*f2(Speaker2:Day1:Hour2:Area2,Speaker3:Day2:Hour1:Area1)*f3(Speaker1:Day2:Hour3:Area3, Speaker3:Day2:Hour1:Area1)
 
 
+### INTRODUCTION 
+On many occasions, problem solving is subject to the various units into which they can be decomposed verifying certain sets of constraints. Everyday problems such as making an appointment with friends, buying a car, or preparing a cooking recipe may depend on many interdependent, and even conflicting, aspects subject to a set of constraints that must be satisfied in order to find a solution to the problem posed.
+
+Historically, the representation and resolution of constraint satisfaction problems (CSP) has generated great expectation among experts in many areas due to its potential for solving large real problems that fall, on many occasions, within what are known as NP problems (those that present a higher computational complexity for their resolution). The first works related to constraint programming date back to the 60s and 70s in the field of Artificial Intelligence, although its techniques have been developed much earlier in different areas of mathematics and with applications to economics, engineering, physics, etc.
+
+The idea of PSR is to represent problems by declaring constraints on the problem area (the space of possible solutions) and consequently finding solutions that satisfy all the constraints. Sometimes, solutions are sought that, in addition, optimize some given criteria.
+
+Problem solving with constraints can be divided into two clearly differentiated branches, where fundamentally different methodologies are applied: the one dealing with problems with finite domains, and the one dealing with problems over infinite domains or more complex domains. 
+
+### SEARCH TREE
+
+<p align="center">
+  <img src="http://www.cs.us.es/~fsancho/images/2016-09/psr-tree.png" alt="Sublime's custom image"/>
+</p>
+
+
+The possible combinations of the assignment of values to variables in a PSR generate a search space that can be structured to be viewed as a search tree. In this way, we can then traverse it following the strategy of our choice. The backtracking search, which is the basis on which most PSR algorithms are based, corresponds to the traditional DFS depth-first exploration of the search tree.
 
 ## DESCRIPTION OF THE PROBLEM
 The Systems Engineering career of the Universidad Catolica Boliviana organizes every year an event that lasts a whole week where it invites national and international speakers to give lectures on topics such as
@@ -137,6 +165,6 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
 
 
 ## BIBLIOGRAPHY
-
+* Class slides
 
 
