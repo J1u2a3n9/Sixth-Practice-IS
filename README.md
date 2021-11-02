@@ -87,8 +87,8 @@ to write a computer program that will allow them to automate this work for them.
 
 Your job is to model the problem as a Constraint Satisfaction Problem. Then solve the problem using the BackJumping algorithm or, failing that, the simple Backtrack algorithm and use the heuristics that you have developed.
 
-Use the heuristics that we saw in class such as Most Constrained Value, Less Constrained Value, Forward Checking, Arc-Consistency, Arc-Consistency, and
-Checking, Arc-Consistency.
+Use the heuristics that we saw in class such as Most Constrained Value, Less Constrained Value, Forward Checking, Arc-Consistency, and
+Checking.
 
 To be able to solve problems subject to the satisfaction of restrictions in order to organize exposure times is due to the fact that the priority is to organize them and not how to get to this organization, and yet all the ways to find a solution to the problem have the same depth in which the order of the actions is not important.
 
