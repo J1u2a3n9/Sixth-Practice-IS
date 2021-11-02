@@ -112,6 +112,7 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
     -	domain number=Enter that allows to store the sum of the days and their available hours for each exhibitor.
 * Event : Main class in which the algorithms seen in class are implemented, its own attributes are:
     -	speakers=Speaker list 
+    -	states_visited=int
 
 ### DESCRIPTION OF METHODS IMPLEMENTED IN MAIN CLASS
 * get_day : Function that returns a string with the name of a specific day according to a specific id that is passed to it, its usefulness is necessary for the search of specific days because they are handled by strings and not integers.
@@ -147,7 +148,9 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
 
 
 
-![DiagramaClases drawio](https://user-images.githubusercontent.com/74753713/139598449-9c72c45d-7539-4b4f-a58b-413cacf9b0ae.png)
+
+
+![DiagramaClases drawio](https://user-images.githubusercontent.com/74753713/139964523-a06e386d-700b-4d34-a950-ef8bbace41ed.png)
 
 
 
