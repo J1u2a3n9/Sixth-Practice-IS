@@ -178,7 +178,7 @@ Experiment Number | Type of algorithm |  Time of ejecution |  States Visited
   II 	|  Backtrack |	0.04674400000000001 | 139 
   V 	|  Backtrack with ARC |	0.045838900000000016 | 141
   III	|  Backtrack |	0.13892569999999999 | 234
-  VI 	|  Backtrack |	0.13714610000000005 | 236 
+  VI 	|  Backtrack with ARC |	0.13714610000000005 | 236 
 
 
 
