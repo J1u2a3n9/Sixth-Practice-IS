@@ -112,7 +112,7 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
     -	domain number=Enter that allows to store the sum of the days and their available hours for each exhibitor.
 * Event : Main class in which the algorithms seen in class are implemented, its own attributes are:
     -	speakers=Speaker list 
-    -	states_visited=int
+    -	states_visited=int, number of states visited in the least contrained value algorithm
 
 ### DESCRIPTION OF METHODS IMPLEMENTED IN MAIN CLASS
 * get_day : Function that returns a string with the name of a specific day according to a specific id that is passed to it, its usefulness is necessary for the search of specific days because they are handled by strings and not integers.
