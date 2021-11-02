@@ -166,6 +166,19 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
 
 
 ## EXPERIMENTS :round_pushpin:
+#### 1. COMPARISON OF EXPERIMENTS
+
+
+#### :arrow_down_small: Experiments and results:
+  
+Experiment Number | Type of algorithm |  Time of ejecution |  States Visited
+  :---: |  :---: | :---: | :---: 
+  I 	|  Backtrack |	0.07964880000000002 | 234 
+  IV 	|  Backtrack with ARC |	0.08221869999999998 | 234 
+  II 	|  Backtrack |	0.04674400000000001 | 139 
+  V 	|  Backtrack with ARC |	0.045838900000000016 | 141
+  III	|  Backtrack |	0.13892569999999999 | 234
+  VI 	|  Backtrack |	0.13714610000000005 | 236 
 
 
 
