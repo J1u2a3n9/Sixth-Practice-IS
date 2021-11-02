@@ -144,6 +144,11 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
   
 * arc_consistency : Function that verifies if the neighbors of the neighbors would be touched in its domain causing an inconsistent assignment, taking into account that a specific day and time is assigned, to perform this heuristic a list of tuples that simulates a queue is used. 
 
+* backtrack_search: Function that counts the number of existing domains of each speaker and performs a backtrack according to how many speakers exist.
+
+* backtrack: Function that is in charge of assigning schedules to the speakers with the restrictions of not being able to have two consecutive schedules, that two speakers cannot speak at the same time and on the same day, selects a speaker with less number of domains and then orders the domain variables from highest to lowest in terms of the number of domains that exist in their neighbors, for each domain test which gives a consistent value and assigns it.  
+
+
 ### CLASS DIAGRAM 
 
 
