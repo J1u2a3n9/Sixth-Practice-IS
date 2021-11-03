@@ -176,46 +176,14 @@ Testing with a minimum exhibitor population that has all the available schedules
 Time of ejecution: 0.079323
 ,States visited: 234
 
-Name: Juan
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Lunes
-,Hour: 9
-
-
-Name: Jose
-,Area: Sistemas Inteligentes
-,Nationality: Argentino
-,Day: Lunes
-,Hour: 9
-
-
-Name: Ana
-,Area: Seguridad de Sistemas
-,Nationality: Ecuatoriana
-,Day: Lunes
-,Hour: 9
-
-
-Name: Luis
-,Area: Sistemas Inteligentes
-,Nationality: Peruano
-,Day: Lunes
-,Hour: 10
-
-
-Name: Ana
-,Area: Sistemas Inteligentes
-,Nationality: Barbados
-,Day: Lunes
-,Hour: 11
-
-
-Name: Roberto
-,Area: Sistemas Inteligentes
-,Nationality: Colombia
-,Day: Lunes
-,Hour: 12
+Name | Area | Nationality |  Day |  Hour 
+ :---: |  :---: | :---: | :---: | :---: 
+Juan | Ingenieria de Software |  Boliviano |  Lunes |  9
+Jose | Sistemas Inteligentes | Argentino | Lunes | 9
+Ana | Seguridad de Sistemas | Ecuatoriana |Lunes | 9
+Luis | Sistemas Inteligentes|Peruano|Lunes|10
+Ana| Sistemas Inteligentes|Barbados|Lunes|11
+Roberto|Sistemas Inteligentes|Colombia|Lunes|12
 
 
 #### EXPERIMENT II
@@ -223,47 +191,14 @@ Testing with a minimum exhibitor population with reduced schedules, but with mor
 Time of ejecution: 0.04678299999999999
 ,States visited: 139
 
-
-Name: Juan
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Lunes
-,Hour: 9
-
-
-Name: Jose
-,Area: Sistemas Inteligentes
-,Nationality: Argentino
-,Day: Lunes
-,Hour: 9
-
-
-Name: Ana
-,Area: Seguridad de Sistemas
-,Nationality: Ecuatoriana
-,Day: Lunes
-,Hour: 9
-
-
-Name: Luis
-,Area: Sistemas Inteligentes
-,Nationality: Peruano
-,Day: Martes
-,Hour: 15
-
-
-Name: Ana
-,Area: Sistemas Inteligentes
-,Nationality: Barbados
-,Day: Jueves
-,Hour: 9
-
-
-Name: Roberto
-,Area: Sistemas Inteligentes
-,Nationality: Colombia
-,Day: Jueves
-,Hour: 10
+Name | Area | Nationality |  Day |  Hour 
+ :---: |  :---: | :---: | :---: | :---: 
+Juan|Ingenieria de Software|Boliviano|Lunes|9
+Jose|Sistemas Inteligentes|Argentino|Lunes|9
+Ana|Seguridad de Sistemas|Ecuatoriana|Lunes|9
+Luis|Sistemas Inteligentes|Peruano|Martes|15
+Ana|Sistemas Inteligentes|Barbados|Jueves|9
+Roberto|Sistemas Inteligentes|Colombia|Jueves|10
 
 
 #### EXPERIMENT III
@@ -271,261 +206,20 @@ Experiment testing with a larger population and having a preference of one speak
 Time of ejecution: 0.1276432
 ,States visited: 234
 
+Name | Area | Nationality |  Day |  Hour 
+ :---: |  :---: | :---: | :---: | :---: 
+Juan|Ingenieria de Software|Boliviano|Lunes|9
+Jose|Sistemas Inteligentes|Argentino|Lunes|9
+Ana|Seguridad de Sistemas|Ecuatoriana|Jueves|17
+Luis|Sistemas Inteligentes|Peruano|Lunes|10
+Anahi|Sistemas Inteligentes|Barbados|Lunes|11
+Roberto|Sistemas Inteligentes|Colombia|Lunes|12
+Ana|Seguridad de Sistemas|Ecuatoriana|Miercoles|9
+Carlos|Ingenieria de Software|Boliviano|Viernes|17
+Melany|Sistemas Inteligentes|Boliviano|Lunes|15
+Esteban|Ingenieria de Software|Boliviano|Viernes|18
+Wilson|Seguridad de Sistemas|Boliviano|Miercoles|10
 
-Name: Juan
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Lunes
-,Hour: 9
-
-
-Name: Jose
-,Area: Sistemas Inteligentes
-,Nationality: Argentino
-,Day: Lunes
-,Hour: 9
-
-
-Name: Ana
-,Area: Seguridad de Sistemas
-,Nationality: Ecuatoriana
-,Day: Jueves
-,Hour: 17
-
-
-Name: Luis
-,Area: Sistemas Inteligentes
-,Nationality: Peruano
-,Day: Lunes
-,Hour: 10
-
-
-Name: Anahi
-,Area: Sistemas Inteligentes
-,Nationality: Barbados
-,Day: Lunes
-,Hour: 11
-
-
-Name: Roberto
-,Area: Sistemas Inteligentes
-,Nationality: Colombia
-,Day: Lunes
-,Hour: 12
-
-
-Name: Ana
-,Area: Seguridad de Sistemas
-,Nationality: Ecuatoriana
-,Day: Miercoles
-,Hour: 9
-
-
-Name: Carlos
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Viernes
-,Hour: 17
-
-
-Name: Melany
-,Area: Sistemas Inteligentes
-,Nationality: Boliviano
-,Day: Lunes
-,Hour: 15
-
-
-Name: Esteban
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Viernes
-,Hour: 18
-
-
-Name: Wilson
-,Area: Seguridad de Sistemas
-,Nationality: Boliviano
-,Day: Miercoles
-,Hour: 10
-
-
-#### EXPERIMENT IV
-Experiment updating domains with arc consistency in backtrack and least constrained value
-Time of ejecution: 0.0775881
-,States visited: 234
-
-
-,Name: Juan
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Lunes
-,Hour: 9
-
-
-Name: Jose
-,Area: Sistemas Inteligentes
-,Nationality: Argentino
-,Day: Lunes
-,Hour: 9
-
-
-Name: Ana
-,Area: Seguridad de Sistemas
-,Nationality: Ecuatoriana
-,Day: Lunes
-,Hour: 9
-
-
-Name: Luis
-,Area: Sistemas Inteligentes
-,Nationality: Peruano
-,Day: Lunes
-,Hour: 10
-
-
-Name: Ana
-,Area: Sistemas Inteligentes
-,Nationality: Barbados
-,Day: Lunes
-,Hour: 11
-
-
-Name: Roberto
-,Area: Sistemas Inteligentes
-,Nationality: Colombia
-,Day: Lunes
-,Hour: 12
-
-
-#### EXPERIMENT V
-Testing with Arc consitency in backtrack, least constrained value and  and a minimum exhibitor population with reduced schedules, but with more than one exhibitor in the same area.
-Time of ejecution: 0.04346939999999999
-,States visited: 141
-
-
-Name: Juan
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Lunes
-,Hour: 9
-
-
-Name: Jose
-,Area: Sistemas Inteligentes
-,Nationality: Argentino
-,Day: Lunes
-,Hour: 9
-
-
-Name: Ana
-,Area: Seguridad de Sistemas
-,Nationality: Ecuatoriana
-,Day: Lunes
-,Hour: 9
-
-
-Name: Luis
-,Area: Sistemas Inteligentes
-,Nationality: Peruano
-,Day: Martes
-,Hour: 9
-
-
-Name: Ana
-,Area: Sistemas Inteligentes
-,Nationality: Barbados
-,Day: Martes
-,Hour: 9
-
-
-Name: Roberto
-,Area: Sistemas Inteligentes
-,Nationality: Colombia
-,Day: Martes
-,Hour: 9
-
-
-#### EXPERIMENT VI
-Experiment testing with Arc consistency in backtrack, least constrained value a larger population and having a preference of one speaker on the same day and also two hours in a row.
-Time of ejecution: 0.1322123
-,States visited: 236
-
-
-Name: Juan
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Lunes
-,Hour: 9
-
-
-Name: Jose
-,Area: Sistemas Inteligentes
-,Nationality: Argentino
-,Day: Lunes
-,Hour: 9
-
-
-Name: Ana
-,Area: Seguridad de Sistemas
-,Nationality: Ecuatoriana
-,Day: Jueves
-,Hour: 17
-
-
-Name: Luis
-,Area: Sistemas Inteligentes
-,Nationality: Peruano
-,Day: Lunes
-,Hour: 10
-
-
-Name: Anahi
-,Area: Sistemas Inteligentes
-,Nationality: Barbados
-,Day: Lunes
-,Hour: 11
-
-
-Name: Roberto
-,Area: Sistemas Inteligentes
-,Nationality: Colombia
-,Day: Lunes
-,Hour: 12
-
-
-Name: Ana
-,Area: Seguridad de Sistemas
-,Nationality: Ecuatoriana
-,Day: Miercoles
-,Hour: 9
-
-
-Name: Carlos
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Viernes
-,Hour: 17
-
-
-Name: Melany
-,Area: Sistemas Inteligentes
-,Nationality: Boliviano
-,Day: Lunes
-,Hour: 15
-
-
-Name: Esteban
-,Area: Ingenieria de Software
-,Nationality: Boliviano
-,Day: Viernes
-,Hour: 18
-
-
-Name: Wilson
-,Area: Seguridad de Sistemas
-,Nationality: Boliviano
-,Day: Miercoles
-,Hour: 9
 
 
 
