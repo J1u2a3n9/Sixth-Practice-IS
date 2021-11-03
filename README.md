@@ -166,7 +166,370 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
 
 
 ## EXPERIMENTS :round_pushpin:
-#### 1. COMPARISON OF EXPERIMENTS
+
+#### 1. EXPERIMENTS EJECUTION
+#### :arrow_down_small: Experiments and results:
+
+------------------------------------------------------------------------------------------------------------------------------------------
+##### EXPERIMENT I
+Testing with a minimum exhibitor population that has all the available schedules and there are repeats from the same area.
+Time of ejecution: 0.079323
+,States visited: 234
+
+Name: Juan
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Lunes
+,Hour: 9
+
+
+Name: Jose
+,Area: Sistemas Inteligentes
+,Nationality: Argentino
+,Day: Lunes
+,Hour: 9
+
+
+Name: Ana
+,Area: Seguridad de Sistemas
+,Nationality: Ecuatoriana
+,Day: Lunes
+,Hour: 9
+
+
+Name: Luis
+,Area: Sistemas Inteligentes
+,Nationality: Peruano
+,Day: Lunes
+,Hour: 10
+
+
+Name: Ana
+,Area: Sistemas Inteligentes
+,Nationality: Barbados
+,Day: Lunes
+,Hour: 11
+
+
+Name: Roberto
+,Area: Sistemas Inteligentes
+,Nationality: Colombia
+,Day: Lunes
+,Hour: 12
+
+
+#### EXPERIMENT II
+Testing with a minimum exhibitor population with reduced schedules, but with more than one exhibitor in the same area.
+Time of ejecution: 0.04678299999999999
+,States visited: 139
+
+
+Name: Juan
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Lunes
+,Hour: 9
+
+
+Name: Jose
+,Area: Sistemas Inteligentes
+,Nationality: Argentino
+,Day: Lunes
+,Hour: 9
+
+
+Name: Ana
+,Area: Seguridad de Sistemas
+,Nationality: Ecuatoriana
+,Day: Lunes
+,Hour: 9
+
+
+Name: Luis
+,Area: Sistemas Inteligentes
+,Nationality: Peruano
+,Day: Martes
+,Hour: 15
+
+
+Name: Ana
+,Area: Sistemas Inteligentes
+,Nationality: Barbados
+,Day: Jueves
+,Hour: 9
+
+
+Name: Roberto
+,Area: Sistemas Inteligentes
+,Nationality: Colombia
+,Day: Jueves
+,Hour: 10
+
+
+#### EXPERIMENT III
+Experiment testing with a larger population and having a preference of one speaker on the same day and also two hours in a row.
+Time of ejecution: 0.1276432
+,States visited: 234
+
+
+Name: Juan
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Lunes
+,Hour: 9
+
+
+Name: Jose
+,Area: Sistemas Inteligentes
+,Nationality: Argentino
+,Day: Lunes
+,Hour: 9
+
+
+Name: Ana
+,Area: Seguridad de Sistemas
+,Nationality: Ecuatoriana
+,Day: Jueves
+,Hour: 17
+
+
+Name: Luis
+,Area: Sistemas Inteligentes
+,Nationality: Peruano
+,Day: Lunes
+,Hour: 10
+
+
+Name: Anahi
+,Area: Sistemas Inteligentes
+,Nationality: Barbados
+,Day: Lunes
+,Hour: 11
+
+
+Name: Roberto
+,Area: Sistemas Inteligentes
+,Nationality: Colombia
+,Day: Lunes
+,Hour: 12
+
+
+Name: Ana
+,Area: Seguridad de Sistemas
+,Nationality: Ecuatoriana
+,Day: Miercoles
+,Hour: 9
+
+
+Name: Carlos
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Viernes
+,Hour: 17
+
+
+Name: Melany
+,Area: Sistemas Inteligentes
+,Nationality: Boliviano
+,Day: Lunes
+,Hour: 15
+
+
+Name: Esteban
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Viernes
+,Hour: 18
+
+
+Name: Wilson
+,Area: Seguridad de Sistemas
+,Nationality: Boliviano
+,Day: Miercoles
+,Hour: 10
+
+
+#### EXPERIMENT IV
+Experiment updating domains with arc consistency in backtrack and least constrained value
+Time of ejecution: 0.0775881
+,States visited: 234
+
+
+,Name: Juan
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Lunes
+,Hour: 9
+
+
+Name: Jose
+,Area: Sistemas Inteligentes
+,Nationality: Argentino
+,Day: Lunes
+,Hour: 9
+
+
+Name: Ana
+,Area: Seguridad de Sistemas
+,Nationality: Ecuatoriana
+,Day: Lunes
+,Hour: 9
+
+
+Name: Luis
+,Area: Sistemas Inteligentes
+,Nationality: Peruano
+,Day: Lunes
+,Hour: 10
+
+
+Name: Ana
+,Area: Sistemas Inteligentes
+,Nationality: Barbados
+,Day: Lunes
+,Hour: 11
+
+
+Name: Roberto
+,Area: Sistemas Inteligentes
+,Nationality: Colombia
+,Day: Lunes
+,Hour: 12
+
+
+#### EXPERIMENT V
+Testing with Arc consitency in backtrack, least constrained value and  and a minimum exhibitor population with reduced schedules, but with more than one exhibitor in the same area.
+Time of ejecution: 0.04346939999999999
+,States visited: 141
+
+
+Name: Juan
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Lunes
+,Hour: 9
+
+
+Name: Jose
+,Area: Sistemas Inteligentes
+,Nationality: Argentino
+,Day: Lunes
+,Hour: 9
+
+
+Name: Ana
+,Area: Seguridad de Sistemas
+,Nationality: Ecuatoriana
+,Day: Lunes
+,Hour: 9
+
+
+Name: Luis
+,Area: Sistemas Inteligentes
+,Nationality: Peruano
+,Day: Martes
+,Hour: 9
+
+
+Name: Ana
+,Area: Sistemas Inteligentes
+,Nationality: Barbados
+,Day: Martes
+,Hour: 9
+
+
+Name: Roberto
+,Area: Sistemas Inteligentes
+,Nationality: Colombia
+,Day: Martes
+,Hour: 9
+
+
+#### EXPERIMENT VI
+Experiment testing with Arc consistency in backtrack, least constrained value a larger population and having a preference of one speaker on the same day and also two hours in a row.
+Time of ejecution: 0.1322123
+,States visited: 236
+
+
+Name: Juan
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Lunes
+,Hour: 9
+
+
+Name: Jose
+,Area: Sistemas Inteligentes
+,Nationality: Argentino
+,Day: Lunes
+,Hour: 9
+
+
+Name: Ana
+,Area: Seguridad de Sistemas
+,Nationality: Ecuatoriana
+,Day: Jueves
+,Hour: 17
+
+
+Name: Luis
+,Area: Sistemas Inteligentes
+,Nationality: Peruano
+,Day: Lunes
+,Hour: 10
+
+
+Name: Anahi
+,Area: Sistemas Inteligentes
+,Nationality: Barbados
+,Day: Lunes
+,Hour: 11
+
+
+Name: Roberto
+,Area: Sistemas Inteligentes
+,Nationality: Colombia
+,Day: Lunes
+,Hour: 12
+
+
+Name: Ana
+,Area: Seguridad de Sistemas
+,Nationality: Ecuatoriana
+,Day: Miercoles
+,Hour: 9
+
+
+Name: Carlos
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Viernes
+,Hour: 17
+
+
+Name: Melany
+,Area: Sistemas Inteligentes
+,Nationality: Boliviano
+,Day: Lunes
+,Hour: 15
+
+
+Name: Esteban
+,Area: Ingenieria de Software
+,Nationality: Boliviano
+,Day: Viernes
+,Hour: 18
+
+
+Name: Wilson
+,Area: Seguridad de Sistemas
+,Nationality: Boliviano
+,Day: Miercoles
+,Hour: 9
+
+
+
+#### 2. COMPARISON OF TIMES AND STATES VISITED IN THE EXPERIMENTS 
 
 
 #### :arrow_down_small: Experiments and results:
@@ -180,6 +543,20 @@ Experiment Number | Type of algorithm |  Time of ejecution |  States Visited
   III	|  Backtrack |	0.13892569999999999 | 234
   VI 	|  Backtrack with ARC |	0.13714610000000005 | 236 
 
+This experiment seeks to compare the number of states visited and the execution time, either using a backtrack with forward checking or backtrack with Arc Consistency, two experiments are associated with the same initial values, for example 
+Experiments I and IV, II and V, III and VI have the same initial states and the only thing that varies are the backtrack algorithms with which they are executed.
+In the comparative table it can be seen that the backtrack algorithm that uses the forward checking is the one that visits less states, this because this algorithm only visits its neighbors and not its neighbors of its neighbors as does the Arc consistency algorithm, this is not always convenient because it does not predict the future but only to a later state, in another case the one that runs a little faster is the backtrack algorithm with ARC consistency most likely because it predicts almost more than one state after the neighbor and this prevents the evaluation of this state.
+
+
+#### 3. COMPARISON OF STATES VISITED WITH TOTAL NUMBER OF DOMAINS FOR ALL EXHIBITORS 
+
+Experiment Number | Total Number Domain Of Speakers |  States visited Experiment Backtrack |  States Visited Experiment BackTrack Arc
+  :---: |  :---: | :---: | :---: 
+  I and IV 	|  270 |	234 | 234 
+  II and V 	|  160 |	139 | 141 
+  III and VI 	|  283 |	234 | 236 
+
+The following table shows the number of states visited by each backtrack algorithm, either forward checking or arc consistency, in which it can be seen that both follow the trend of visiting almost all domains of all exhibitors, but even more the backtrack algorithm with arc consistency to update its domain, which could be associated to a very close algorithm which is the dfs. 
 
 
 ## CONCLUSION
