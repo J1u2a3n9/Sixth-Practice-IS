@@ -170,6 +170,9 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
 ### DISCLAIMER 
 The following experiments focus on the backtrack algorithm using forward checking so that the backtrack algorithm implemented with arc consistent is used for state and time counting so that it can be compared to a simple backtrack with forward checking. 
 
+Experiment I shows the resulting assignments after running the backtrack algorithm on the varied exhibitor populations in the different experiments within the program.
+To see the initial states refer to the txt files start.txt where the initial state of all experiments is shown and end.txt where the corresponding assignments are shown after running the backtrack with the forward checking algorithm.
+
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
@@ -276,5 +279,6 @@ When returning this ordered list the backtrack for each domain tests that assign
 
 ## BIBLIOGRAPHY
 * Class slides
+* Videos of classes
 
 
