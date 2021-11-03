@@ -170,6 +170,9 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
 #### 1. EXPERIMENTS EJECUTION
 #### :arrow_down_small: Experiments and results:
 
+
+### DISCLAIMER 
+The following experiments focus on the backtrack algorithm using forward checking so that the backtrack algorithm implemented with arc consistent is used for state and time counting so that it can be compared to a simple backtrack with forward checking. 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ##### EXPERIMENT I
 Testing with a minimum exhibitor population that has all the available schedules and there are repeats from the same area.
