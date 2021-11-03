@@ -170,10 +170,14 @@ For the solution of the problem of schedules of exhibitors using the algorithms 
 ### DISCLAIMER 
 The following experiments focus on the backtrack algorithm using forward checking so that the backtrack algorithm implemented with arc consistent is used for state and time counting so that it can be compared to a simple backtrack with forward checking. 
 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
 #### 1. EXPERIMENTS EJECUTION
 #### :arrow_down_small: Experiments and results:
 
-------------------------------------------------------------------------------------------------------------------------------------------
+
 ##### EXPERIMENT I
 Testing with a minimum exhibitor population that has all the available schedules and there are repeats from the same area.
 Time of ejecution: 0.079323
@@ -250,6 +254,9 @@ In the comparative table it can be seen that the backtrack algorithm that uses t
 
 
 #### 3. COMPARISON OF STATES VISITED WITH TOTAL NUMBER OF DOMAINS FOR ALL EXHIBITORS 
+
+
+#### :arrow_down_small: Experiments and results:
 
 Experiment Number | Total Number Domain Of Speakers |  States visited Experiment Backtrack |  States Visited Experiment BackTrack Arc
   :---: |  :---: | :---: | :---: 
