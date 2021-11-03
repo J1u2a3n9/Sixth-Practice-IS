@@ -1,0 +1,901 @@
+------------------------------------------------------------------------------------------------------------------------------------------
+EXPERIMENT I
+Testing with a minimum exhibitor population that has all the available schedules and there are repeats from the same area.
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------STATES VISITED-----------------------------------------------------
+States visited: 0
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Juan
+Area: Ingenieria de Software
+Nationality: Boliviano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Jose
+Area: Sistemas Inteligentes
+Nationality: Argentino
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Ana
+Area: Seguridad de Sistemas
+Nationality: Ecuatoriana
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Luis
+Area: Sistemas Inteligentes
+Nationality: Peruano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Ana
+Area: Sistemas Inteligentes
+Nationality: Barbados
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Roberto
+Area: Sistemas Inteligentes
+Nationality: Colombia
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+-------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+EXPERIMENT II
+Testing with a minimum exhibitor population with reduced schedules, but with more than one exhibitor in the same area.
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------STATES VISITED-----------------------------------------------------
+States visited: 0
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Juan
+Area: Ingenieria de Software
+Nationality: Boliviano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Jose
+Area: Sistemas Inteligentes
+Nationality: Argentino
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Ana
+Area: Seguridad de Sistemas
+Nationality: Ecuatoriana
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Luis
+Area: Sistemas Inteligentes
+Nationality: Peruano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Ana
+Area: Sistemas Inteligentes
+Nationality: Barbados
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Roberto
+Area: Sistemas Inteligentes
+Nationality: Colombia
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+-------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+EXPERIMENT III
+Experiment testing with a larger population and having a preference of one speaker on the same day and also two hours in a row.
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------STATES VISITED-----------------------------------------------------
+States visited: 0
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Juan
+Area: Ingenieria de Software
+Nationality: Boliviano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Jose
+Area: Sistemas Inteligentes
+Nationality: Argentino
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Ana
+Area: Seguridad de Sistemas
+Nationality: Ecuatoriana
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Jueves
+Hour: 17
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Luis
+Area: Sistemas Inteligentes
+Nationality: Peruano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Anahi
+Area: Sistemas Inteligentes
+Nationality: Barbados
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Roberto
+Area: Sistemas Inteligentes
+Nationality: Colombia
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Ana
+Area: Seguridad de Sistemas
+Nationality: Ecuatoriana
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Miercoles
+Hour: 9
+Hour: 10
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Carlos
+Area: Ingenieria de Software
+Nationality: Boliviano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Viernes
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Melany
+Area: Sistemas Inteligentes
+Nationality: Boliviano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Lunes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Martes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Miercoles
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Jueves
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+Day: Viernes
+Hour: 9
+Hour: 10
+Hour: 11
+Hour: 12
+Hour: 15
+Hour: 16
+Hour: 17
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Esteban
+Area: Ingenieria de Software
+Nationality: Boliviano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Viernes
+Hour: 18
+
+
+------------------------------------------SPEAKER INFORMATION-----------------------------------------------------
+Name: Wilson
+Area: Seguridad de Sistemas
+Nationality: Boliviano
+-----------------------------------------------SCHEDULE-----------------------------------------------------------
+Day: Miercoles
+Hour: 9
+Hour: 10
+-------------------------------------------------------------------------------------------------------------
+
+
