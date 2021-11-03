@@ -245,6 +245,10 @@ Experiments I and IV, II and V, III and VI have the same initial states and the 
 In the comparative table it can be seen that the backtrack algorithm that uses the forward checking is the one that visits less states, this because this algorithm only visits its neighbors and not its neighbors of its neighbors as does the Arc consistency algorithm, this is not always convenient because it does not predict the future but only to a later state, in another case the one that runs a little faster is the backtrack algorithm with ARC consistency most likely because it predicts almost more than one state after the neighbor and this prevents the evaluation of this state.
 
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 #### 3. COMPARISON OF STATES VISITED WITH TOTAL NUMBER OF DOMAINS FOR ALL EXHIBITORS 
 
 Experiment Number | Total Number Domain Of Speakers |  States visited Experiment Backtrack |  States Visited Experiment BackTrack Arc
