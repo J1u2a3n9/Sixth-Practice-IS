@@ -174,6 +174,10 @@ Experiment I shows the resulting assignments after running the backtrack algorit
 To see the initial states refer to the txt files start.txt where the initial state of all experiments is shown and end.txt where the corresponding assignments are shown after running the backtrack with the forward checking algorithm.
 
 
+The representation of an exhibitor who wishes to give his talk two hours in a row on the same day is displayed as follows
+day:Monday
+hours[9,10]
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
