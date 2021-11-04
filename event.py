@@ -516,7 +516,7 @@ def main():
     events.backtrack_search()
     end=timeit.default_timer()
     total_time=end-start
-    print("Time of ejecution: "+str(total_time),file=data)
+    print("Time of execution: "+str(total_time),file=data)
     events.print_solution(data)
 
 
@@ -568,7 +568,7 @@ def main():
     events.backtrack_search()
     end=timeit.default_timer()
     total_time=end-start
-    print("Time of ejecution: "+str(total_time),file=data)
+    print("Time of execution: "+str(total_time),file=data)
     events.print_solution(data)
     print("------------------------------------------------------------------------------------------------------------------------------------------",file=data)
 
@@ -647,7 +647,7 @@ def main():
     events.backtrack_search()
     end=timeit.default_timer()
     total_time=end-start
-    print("Time of ejecution: "+str(total_time),file=data)
+    print("Time of execution: "+str(total_time),file=data)
     events.print_solution(data)
     print("------------------------------------------------------------------------------------------------------------------------------------------",file=data)
 
@@ -685,7 +685,7 @@ def main():
     events.backtrack_search_arc()
     end=timeit.default_timer()
     total_time=end-start
-    print("Time of ejecution: "+str(total_time))
+    print("Time of execution: "+str(total_time))
     events.print_solution_arc()
 
 
@@ -731,7 +731,7 @@ def main():
     events.backtrack_search_arc()
     end=timeit.default_timer()
     total_time=end-start
-    print("Time of ejecution: "+str(total_time))
+    print("Time of execution: "+str(total_time))
     events.print_solution_arc()
     print("------------------------------------------------------------------------------------------------------------------------------------------")
 
@@ -801,7 +801,7 @@ def main():
     events.backtrack_search_arc()
     end=timeit.default_timer()
     total_time=end-start
-    print("Time of ejecution: "+str(total_time))
+    print("Time of execution: "+str(total_time))
     events.print_solution_arc()
     print("------------------------------------------------------------------------------------------------------------------------------------------")
 

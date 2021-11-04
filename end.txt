@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------
 EXPERIMENT I
 Testing with a minimum exhibitor population that has all the available schedules and there are repeats from the same area.
-Time of ejecution: 0.0788894
+Time of execution: 0.08567439999999998
 -------------------------------------------------------------------------------------------------------------
 ------------------------------------------STATES VISITED-----------------------------------------------------
 States visited: 234
@@ -65,7 +65,7 @@ Hour: 12
 ------------------------------------------------------------------------------------------------------------------------------------------
 EXPERIMENT II
 Testing with a minimum exhibitor population with reduced schedules, but with more than one exhibitor in the same area.
-Time of ejecution: 0.04644870000000001
+Time of execution: 0.049925600000000014
 -------------------------------------------------------------------------------------------------------------
 ------------------------------------------STATES VISITED-----------------------------------------------------
 States visited: 139
@@ -130,7 +130,7 @@ Hour: 10
 ------------------------------------------------------------------------------------------------------------------------------------------
 EXPERIMENT III
 Experiment testing with a larger population and having a preference of one speaker on the same day and also two hours in a row.
-Time of ejecution: 0.12768110000000002
+Time of execution: 0.1379672
 -------------------------------------------------------------------------------------------------------------
 ------------------------------------------STATES VISITED-----------------------------------------------------
 States visited: 234
