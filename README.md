@@ -14,7 +14,7 @@
 
 * Clonar desde el repositorio principal usando: 
 
-     -git clone (enlace al repositorio)
+	- git clone (enlace al repositorio)
 
 * Insertar en la terminal de la consola 'python event.py' para iniciar el programa
 
