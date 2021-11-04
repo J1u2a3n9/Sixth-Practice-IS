@@ -16,7 +16,7 @@
 
      -git clone (enlace al repositorio)
 
-* Insertar en la terminal de la consola 'python main.py' para iniciar el programa
+* Insertar en la terminal de la consola 'python event.py' para iniciar el programa
 
 
 
