@@ -181,13 +181,13 @@ hours[9,10]
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-#### 1. EXPERIMENTS EJECUTION
+#### 1. EXPERIMENTS EXECUTION
 #### :arrow_down_small: Experiments and results:
 
 
 ##### EXPERIMENT I
 Testing with a minimum exhibitor population that has all the available schedules and there are repeats from the same area.
-Time of ejecution: 0.079323
+Time of execution: 0.079323
 ,States visited: 234
 
 Name | Area | Nationality |  Day |  Hour 
@@ -202,7 +202,7 @@ Roberto|Sistemas Inteligentes|Colombia|Lunes|12
 
 #### EXPERIMENT II
 Testing with a minimum exhibitor population with reduced schedules, but with more than one exhibitor in the same area.
-Time of ejecution: 0.04678299999999999
+Time of execution: 0.04678299999999999
 ,States visited: 139
 
 Name | Area | Nationality |  Day |  Hour 
@@ -217,7 +217,7 @@ Roberto|Sistemas Inteligentes|Colombia|Jueves|10
 
 #### EXPERIMENT III
 Experiment testing with a larger population and having a preference of one speaker on the same day and also two hours in a row.
-Time of ejecution: 0.1276432
+Time of execution: 0.1276432
 ,States visited: 234
 
 Name | Area | Nationality |  Day |  Hour 
@@ -242,7 +242,7 @@ Wilson|Seguridad de Sistemas|Boliviano|Miercoles|10
 
 #### :arrow_down_small: Experiments and results:
   
-Experiment Number | Type of algorithm |  Time of ejecution |  States Visited
+Experiment Number | Type of algorithm |  Time of execution |  States Visited
   :---: |  :---: | :---: | :---: 
   I 	|  Backtrack |	0.07964880000000002 | 234 
   IV 	|  Backtrack with ARC |	0.08221869999999998 | 234 
